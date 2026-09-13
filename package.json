@@ -1,0 +1,11 @@
+{
+  "name": "hifzsdk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rust SDK that wires the Hifz (Sabqi → Manzil) memorization method into any Swift Quran app.",
+  "scripts": {
+    "dev": "cargo run",
+    "build": "cargo build --release",
+    "build-data": "cargo run -- --build-data"
+  }
+}
